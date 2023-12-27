@@ -1,0 +1,70 @@
+{"kind": "books#volumes",
+  "totalItems": 9,
+  "items": 
+  [
+    {
+      "kind": "books#volume",
+      "id": "TOoKzgEACAAJ",
+      "etag": "QGkbuzaFA7c",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/TOoKzgEACAAJ",
+      "volumeInfo": {
+        "title": "Moby Dick",
+        "subtitle": "Herman Melville Mobydick Book",
+        "authors": [
+          "Herman Melville"
+        ],
+        "publishedDate": "2020-03-16",
+        "description": "Moby-Dick; or, The Whale is an 1851 novel by American writer Herman Melville. The book is sailor Ishmael's narrative of the obsessive quest of Ahab, captain of the whaling ship Pequod, for revenge on Moby Dick, the giant white sperm whale that on the ship's previous voyage bit off Ahab's leg at the knee. A contribution to the literature of the American Renaissance, the work's genre classifications range from late Romantic to early Symbolist. Moby-Dick was published to mixed reviews, was a commercial failure, and was out of print at the time of the author's death in 1891. Its reputation as a \"Great American Novel\" was established only in the 20th century, after the centennial of its author's birth. William Faulkner said he wished he had written the book himself, and D. H. Lawrence called it \"one of the strangest and most wonderful books in the world\" and \"the greatest book of the sea ever written\". Its opening sentence, \"Call me Ishmael\", is among world literature's most famous.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9798624636408"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 652,
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=TOoKzgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=TOoKzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=TOoKzgEACAAJ&dq=intitle:Mobydick&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=TOoKzgEACAAJ&dq=intitle:Mobydick&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Moby_Dick.html?hl=&id=TOoKzgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "HR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "HR",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=TOoKzgEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The book is sailor Ishmael&#39;s narrative of the obsessive quest of Ahab, captain of the whaling ship Pequod, for revenge on Moby Dick, the giant white sperm whale that on the ship&#39;s previous voyage bit off Ahab&#39;s leg at the knee."
+      }
+  }]}

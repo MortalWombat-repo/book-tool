@@ -1,0 +1,18 @@
+# import wikipedia
+# from pyfiglet import Figlet
+# import textwrap
+# import inspect
+# from tabulate import tabulate
+# import sys
+# import typer
+
+wikipedia
+pyfiglet 
+tabulate 
+typer[all] 
+pypandoc-binary 
+yagmail
+pdfkit
+weasyprint
+pycountry
+
