@@ -2,17 +2,19 @@
 
 **Description of the tool**
 
+A suite of tools to query the book information and keep an organized personal library.
 
 **Usage**
 
 book_tool has several commands to help you find book information with additional options as well.
 
 **book command:**  
-`book "author" "title"`  
+`book "author" "title"`
+
 Using the command with the author and title helps you find the specific book easier,  
 by default the language is set to english.
 
-Using the command with the option add will add the book to your database, bookshelf.  
+Using the **book** with the option add will add the book to your database.  
 It tracks various pieces of information such as: title, author, publisher, rating and the number of ratings.
 `book "author" "title" "add"`
 
