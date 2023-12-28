@@ -70,7 +70,8 @@ Important notice sqlite3 does not come with the Python version only with Windows
 If you are runinng MacOS you need to follow the next step.
 Even though Mac comes with sqlite3 preinstalled it is advisable to update it to eliminate potential issues.
 
-**MacOS**
+**for MacOS**
+
 To install SQLite3 on macOS it is easiest using Homebrew.
 To install Homebrew paste into your terminal the following command:
 ```terminal
@@ -82,7 +83,8 @@ Next install SQLite3:
 brew install sqlite3
 ```
 
-**Windows**
+**Windows**  
+
 To install Sqlite3 in windows visit
 https://www.sqlite.org/download.html
 
