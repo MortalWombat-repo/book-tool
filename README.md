@@ -13,4 +13,6 @@ Here's how:
   `pip install -r requirements.txt`
 
 This command tells pip (a package manager for Python) to install all the libraries listed in the requirements.txt file.
+Packages used:
+`typer==0.9.0, typing==3.7.4.3, typing_extensions==4.6.2, requests==2.31.0, jsonschema==4.17.3, pyspellchecker==0.7.2, nltk==3.8.1, tabulate==0.9.0, pyfiglet==1.0.2, pytest==7.4.3`
 
