@@ -15,4 +15,8 @@ Here's how:
 pip install -r requirements.txt
 ```
 
+```terminal
+cd Web-dev-mini-projects
+```
+
 This command tells pip (a package manager for Python) to install all the libraries listed in the requirements.txt file.
