@@ -3,7 +3,7 @@
 **Description of the tool**  
 A suite of tools to query the book information and keep an organized personal library.
 
-**Usage**
+**Usage**  
 book_tool has several commands to help you find book information with additional options as well.
 
 **book command:**  
