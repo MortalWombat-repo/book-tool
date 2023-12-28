@@ -60,3 +60,54 @@ pip install -r requirements.txt
 ```
 
 This command tells pip (a package manager for Python) to install all the libraries listed in the requirements.txt file.
+
+Python language comes with the sqlite3 preinstalled, it can only output the information,  
+you may not access it yourself in the terminal.
+
+To edit information yourself you would need to install sqlite binaries from:
+https://www.sqlite.org/download.html
+Important notice sqlite3 does not come with the Python version only with Windows.
+If you are runinng MacOS you need to follow the next step.
+Even though Mac comes with sqlite3 preinstalled it is advisable to update it to eliminate potential issues.
+
+**MacOS**
+To install SQLite3 on macOS it is easiest using Homebrew.
+To install Homebrew paste into your terminal the following command:
+```terminal
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+Next install SQLite3:
+```terminal
+brew install sqlite3
+```
+
+**Windows**
+To install Sqlite3 in windows visit
+https://www.sqlite.org/download.html
+
+If your Windows version is 32 bit follow this guide:
+https://stackoverflow.com/a/75627861/22570293
+
+If you have Windows 64 bit:
+install sqlite-tools-win-x64-3440200.zip
+unzip it and add contents to a high level directory, best would be C:\ if does not inconvenience you.
+
+Next step is adding it to your Environment variables if you wish it to   
+run from any directory and not just where the program resides.
+You may follow   
+https://stackoverflow.com/a/75627861/22570293  
+or   
+https://www.computerhope.com/issues/ch000549.htm for a graphical representation.
+
+If you installed sqlite3 in the C:\ directory and don't have a problem working in the terminal
+use:
+```terminal
+setx PATH "%PATH%;C:\name of your sqlite folder"
+```
+This command works for other folders as well
+```terminal
+setx PATH "%PATH%;path in which sqlite resides"
+```
+
+
