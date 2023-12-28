@@ -5,20 +5,37 @@
 
 **Usage**
 
-book_tool has several commands to help you find book information with additional options as well.  
+book_tool has several commands to help you find book information with additional options as well.
+
 **book command:**  
 `book "author" "title"`  
 Using the command with the author and title helps you find the specific book easier,  
 by default the language is set to english.
 
-option to add the information to the database so you can view the books you are most interested in.
+Using the command with the option add will add the book to your database, bookshelf.  
+It tracks various pieces of information such as: title, author, publisher, rating and the number of ratings.
 `book "author" "title" "add"`
-The database keeps track of various pieces of information such as: title, author, publisher, rating and the number of ratings.
 
-Sometimes very popular books have a lot of editions and it is troublesome trying to find the specific edition if you don't know what you are looking for or aren't looking for an edition with a signifier such as ISBN or a Dewey number.
-That is why the book command also has the option to specify the max number of results so you can pinpoint your desired book more easily with specifying the number of results. Due to the nature of the source there can only be a maximum of 40 entries but that is usually more than enough. By default it outputs first ten results.
+Popular books often have different editions and it is difficult to find specific editions without an ISBN or a Dewey number.
+Therefore an option to specify the max number of results is also available.
+It is limited to 40 entries because of the policy set by the information provider, but oftentimes that is more than enough.
+By default without specifying the number yourself the results parameter is set to 10.
 `book "author" "title" "add" 10`
 
+**book** command is the most used command. Yet there are additional commands that you may use if you wish to browse.
+
+**title** command searches by the title name of the book. Usually titles have a lots of different editions.
+That is why title command also comes with the ability to choose the number of results that are displayed.
+The number of results by default is also 10.
+`title "Title of the book" 10`
+
+**author** command searches by the books by the name of the author.
+author command also comes with the ability to choose the number of results that are displayed.
+The number of results by default is also 10.
+`author "Author" 10`
+
+**view** command displays book information in your database.
+`view`
 
 **Installing Dependencies**
 
