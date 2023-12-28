@@ -3,8 +3,8 @@
 
 **Installing Dependencies**
 
-This project uses a number of Python libraries. 
-You can install them using the requirements.txt file included in the project's root directory. 
+This project uses a number of Python libraries.   
+You can install them using the requirements.txt file included in the project's root directory.  
 
 Here's how:
 Open a terminal window.
