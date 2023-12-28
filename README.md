@@ -6,8 +6,8 @@
 **Usage**
 
 book_tool has several commands to help you find book information.  
-book command:
-`book "author" "title"`
+book command:  
+`book "author" "title"`  
 Using the command with the author and title helps you find the specific book easier, by default the language is set to english.
 
 book command also has the option to add the information to the database so you can view the books you are most interested in.
