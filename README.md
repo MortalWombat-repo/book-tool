@@ -76,6 +76,7 @@ This command tells pip (a package manager for Python) to install all the librari
 Python language comes with the sqlite3 preinstalled, it can only output the information,  
 you may not access it yourself in the terminal.
 
+# Installation of SQLite3 (optional)
 To edit information yourself you would need to install sqlite binaries from:
 https://www.sqlite.org/download.html
 Important notice sqlite3 does not come with the Python version only with Windows.
