@@ -38,7 +38,7 @@ book "author" "title" "add" 10
 Yet there are additional commands that you may use if you wish to browse  
 and try to search without having a specific book in mind.
 
-**title** command searches by the title name of the book. Usually titles have a lots of different editions.
+**title** command searches by the title name of the book. Usually titles have a lot of different editions.
 That is why title command also comes with the ability to choose the number of results that are displayed.
 The number of results by default is also 10.  
 ```terminal
